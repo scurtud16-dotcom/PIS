@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DaHouse – Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner">
+      <a href="index.html"><span class="logo-text">DaHouse</span></a>
+      <ul class="nav-list">
+        <li><a href="index.html"    class="nav-link">Principală</a></li>
+        <li><a href="despre.html"   class="nav-link">Despre</a></li>
+        <li><a href="proiecte.html" class="nav-link">Proiecte</a></li>
+        <li><a href="contact.html"  class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Meniu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="index.html"    class="nav-link">Principală</a></li>
+        <li><a href="despre.html"   class="nav-link">Despre</a></li>
+        <li><a href="proiecte.html" class="nav-link">Proiecte</a></li>
+        <li><a href="contact.html"  class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════ PAGE HERO ═══════════════ -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Principală</a> &nbsp;/&nbsp; Contact</p>
+        <span class="section-tag">Vorbim</span>
+        <h1 class="section-title">Hai să ne<br><em>cunoaștem</em></h1>
+      </div>
+    </section>
+
+    <!-- ═══════════════ CONTACT ═══════════════ -->
+    <section class="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal-left">
+          <span class="section-tag">Contactează-ne</span>
+          <h2 class="section-title">Suntem<br><em>aici</em></h2>
+          <p>Suntem gata să ascultăm ideile tale și să le transformăm în realitate. Scrie-ne sau sună-ne – primul pas este al tău.</p>
+          <ul class="contact-details">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>contact@dahouse.md</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.72a16 16 0 0 0 7.37 7.37l1.08-1.08a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+373 699 699 15</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Chișinău, str.Mihail Kogalniceanu 27/3</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Luni – Vineri: 09:00 – 18:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal-right" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Nume</label>
+              <input type="text" id="name" name="name" placeholder="Ioan Popescu" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="email@exemplu.com" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="phone">Telefon (opțional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="+373 XXX XXX XX" />
+          </div>
+          <div class="form-field">
+            <label for="subject">Subiect</label>
+            <input type="text" id="subject" name="subject" placeholder="Proiect rezidențial" />
+          </div>
+          <div class="form-field">
+            <label for="message">Mesaj</label>
+            <textarea id="message" name="message" rows="6" placeholder="Descrie-ne proiectul tău…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark btn-full">
+            Trimite Mesajul
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+          <p class="form-success" id="form-success">Mesajul a fost trimis! Vă vom contacta în curând.</p>
+        </form>
+      </div>
+
+      <!-- Map placeholder -->
+      <div class="container">
+        <div class="map-wrap reveal-up">
+          <span>📍 Chișinău, str.Mihail Kogalniceanu 27/3 – hartă în curând</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <span class="logo-text">DaHouse</span>
+        <p>Creăm spații care transformă vise în realitate</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigare</h4>
+        <a href="index.html">Principală</a>
+        <a href="despre.html">Despre</a>
+        <a href="proiecte.html">Proiecte</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>contact@dahouse.md</p>
+        <p>+373 699 699 15</p>
+      </div>
+      <div class="footer-col">
+        <h4>Adresă</h4>
+        <p>Chișinău, str.Mihail Kogalniceanu 27/3</p>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <div class="container">© 2026 DaHouse. Toate drepturile rezervate.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

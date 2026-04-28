@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DaHouse – Proiecte</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner">
+      <a href="index.html"><span class="logo-text">DaHouse</span></a>
+      <ul class="nav-list">
+        <li><a href="index.html"    class="nav-link">Principală</a></li>
+        <li><a href="despre.html"   class="nav-link">Despre</a></li>
+        <li><a href="proiecte.html" class="nav-link">Proiecte</a></li>
+        <li><a href="contact.html"  class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Meniu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="index.html"    class="nav-link">Principală</a></li>
+        <li><a href="despre.html"   class="nav-link">Despre</a></li>
+        <li><a href="proiecte.html" class="nav-link">Proiecte</a></li>
+        <li><a href="contact.html"  class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════ PAGE HERO ═══════════════ -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Principală</a> &nbsp;/&nbsp; Proiecte</p>
+        <span class="section-tag">Portofoliu</span>
+        <h1 class="section-title">Proiectele<br><em>Noastre</em></h1>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PROJECTS ═══════════════ -->
+    <section class="projects">
+      <div class="container">
+
+        <!-- Filter -->
+        <div class="filter-bar reveal-up">
+          <button class="filter-btn active" data-filter="all">Toate</button>
+          <button class="filter-btn" data-filter="rezidential">Rezidențial</button>
+          <button class="filter-btn" data-filter="interior">Interior</button>
+          <button class="filter-btn" data-filter="comercial">Comercial</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- ── REZIDENȚIAL (5) ── -->
+          <div class="project-card reveal-up" style="--d:0s" data-cat="rezidential">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80" alt="Casa Modernă" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Casa Modernă</h3>
+              <p class="project-meta">Rezidențial · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.12s" data-cat="rezidential">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="Villa Lumina" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Villa Lumina</h3>
+              <p class="project-meta">Rezidențial · Vadul lui Vodă</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.24s" data-cat="rezidential">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" alt="Penthouse Urban" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Penthouse Urban</h3>
+              <p class="project-meta">Rezidențial · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.36s" data-cat="rezidential">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=800&q=80" alt="Casa Albă" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Casa Albă</h3>
+              <p class="project-meta">Rezidențial · Strășeni</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.48s" data-cat="rezidential">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80" alt="Rezidența Botanica" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Rezidența Botanica</h3>
+              <p class="project-meta">Rezidențial · Chișinău</p>
+            </div>
+          </div>
+
+          <!-- ── INTERIOR (5) ── -->
+          <div class="project-card reveal-up" style="--d:0s" data-cat="interior">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Interior Zen" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Interior Zen</h3>
+              <p class="project-meta">Interior · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.12s" data-cat="interior">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80" alt="Apartament Minimal" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Apartament Minimal</h3>
+              <p class="project-meta">Interior · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.24s" data-cat="interior">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80" alt="Living Warm Tones" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Living Warm Tones</h3>
+              <p class="project-meta">Interior · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.36s" data-cat="interior">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80" alt="Suite Scandinavă" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Suite Scandinavă</h3>
+              <p class="project-meta">Interior · Bălți</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.48s" data-cat="interior">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&q=80" alt="Dormitor Lux" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Dormitor Lux</h3>
+              <p class="project-meta">Interior · Chișinău</p>
+            </div>
+          </div>
+
+          <!-- ── COMERCIAL (5) ── -->
+          <div class="project-card reveal-up" style="--d:0s" data-cat="comercial">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Birou Luminos" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Birou Luminos</h3>
+              <p class="project-meta">Comercial · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.12s" data-cat="comercial">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80" alt="Sediu Corporate" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Sediu Corporate</h3>
+              <p class="project-meta">Comercial · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.24s" data-cat="comercial">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=800&q=80" alt="Showroom Elegance" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Showroom Elegance</h3>
+              <p class="project-meta">Comercial · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.36s" data-cat="comercial">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80" alt="Cafenea Artizanală" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Cafenea Artizanală</h3>
+              <p class="project-meta">Comercial · Chișinău</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal-up" style="--d:.48s" data-cat="comercial">
+            <div class="project-img-wrap">
+              <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&q=80" alt="Boutique Hotel" />
+              <div class="project-overlay"><span>Vezi proiect →</span></div>
+            </div>
+            <div class="project-info">
+              <h3>Boutique Hotel</h3>
+              <p class="project-meta">Comercial · Vadul lui Vodă</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ CTA ═══════════════ -->
+    <section class="cta-banner">
+      <div class="cta-bg">
+        <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1600&q=80" alt="luxury interior" />
+        <div class="cta-overlay"></div>
+      </div>
+      <div class="cta-content reveal-up">
+        <h2>Proiectul tău urmează</h2>
+        <p>Hai să discutăm și să transformăm ideile tale în planuri concrete</p>
+        <a href="contact.html" class="btn btn-light">
+          Contactează-ne
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <span class="logo-text">DaHouse</span>
+        <p>Creăm spații care transformă vise în realitate</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigare</h4>
+        <a href="index.html">Principală</a>
+        <a href="despre.html">Despre</a>
+        <a href="proiecte.html">Proiecte</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>contact@dahouse.md</p>
+        <p>+373 699 699 15</p>
+      </div>
+      <div class="footer-col">
+        <h4>Adresă</h4>
+        <p>Chișinău, str.Mihail Kogalniceanu 27/3</p>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <div class="container">© 2026 DaHouse. Toate drepturile rezervate.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
